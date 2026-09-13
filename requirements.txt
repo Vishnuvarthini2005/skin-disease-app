@@ -1,0 +1,10 @@
+streamlit
+torch
+torchvision
+pillow
+numpy
+grad-cam
+groq
+gtts
+fpdf2
+gdown
