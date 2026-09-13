@@ -17,4 +17,4 @@ FILE_ID = "1NyzHV2ny-J0cmVGGndLg_T_rh4XIbLla"
 
 if not os.path.exists(MODEL_PATH):
     with st.spinner("Downloading model (first time only)..."):
-        gdown.download(f"https://drive.google.com/uc?id={FILE_ID}",
+        gdown.download(f"https://drive.google.com/uc?id={FILE_ID}", MODEL_PATH, quiet=False)
